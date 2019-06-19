@@ -7,4 +7,4 @@ sudo systemcl stop jenkins
 sudo rm -r /etc/systemd/system/jenkins.service
 
 # deleting jenkins user using root
-sudo su - root -c "userdel -r jenkins"
+sudo su - root -c "userdel -r jenkins | rm -r /home/jenkins"
