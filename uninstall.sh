@@ -10,4 +10,4 @@ sudo systemctl daemon-reload
 sudo rm -r /etc/systemd/system/jenkins.service
 
 # deleting jenkins user using root
-sudo su - root -c "userdel -r jenkins | rm -r /home/jenkins"
+sudo su - root -c "userdel jenkins | rm -r /home/jenkins"
