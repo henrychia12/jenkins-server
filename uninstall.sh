@@ -3,6 +3,9 @@
 # stop jenkins service
 sudo systemctl stop jenkins
 
+# reload daemon
+sudo systemctl daemon-reload
+
 # remove jenkins service
 sudo rm -r /etc/systemd/system/jenkins.service
 
