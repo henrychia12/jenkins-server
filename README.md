@@ -5,6 +5,7 @@ Git clone this repository to your local machine. Change into the new directory a
 
 Example
 ```bash
+git clone https://github.com/henrychia12/jenkinsTask.git
 cd ~/jenkinsTask
 ./install.sh
 ```
