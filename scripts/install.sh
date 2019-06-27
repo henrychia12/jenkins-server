@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # update apt and install java
-sudo apt-get update | sudo apt-get install -y wget vim openjdk-8-jdk openjdk-8-jre
+sudo apt-get update 
+sudo apt-get install -y wget vim openjdk-8-jdk openjdk-8-jre
 
 #create a user - jenkins and create a home directory for it
 sudo useradd --create-home jenkins
