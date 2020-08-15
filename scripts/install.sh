@@ -22,5 +22,8 @@ sudo cp ../jenkins.service /etc/systemd/system
 # new service added, systemd needs to be reloaded
 sudo systemctl daemon-reload
 
+# enable jenkins 
+sudo systemctl enable jenkins
+
 # start jenkins
 sudo systemctl start jenkins
